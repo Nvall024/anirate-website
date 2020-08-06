@@ -5,9 +5,9 @@
 body{
   margin:0;
   font-family: 'Lucida Sans';
-  font-size: 17px;
+  font-size: 20px;
   color: #ffff;
-  line-height: 1.6;
+  line-height: 2;
 }
 
 .container {
@@ -43,7 +43,7 @@ nav a{
 }
 
 nav a:hover{
-  color:#000;
+  color:#FFD700;
 }
 
 nav a::before{
@@ -72,17 +72,23 @@ nav a:hover::before{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align:center;
   padding: 0 20px;
 }
 
 #showcase h1{
-  font-size: 50px;
-  line-height: 1.2;
+    font-size: 60px;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
 #showcase p{
   font-size: 20px;
+  position: absolute;
+  top: 30%;
 }
 
 #showcase .button{
@@ -93,11 +99,13 @@ nav a:hover::before{
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 20px;
+  position:absolute;
+  top: 35%
 }
 
 #showcase .button:hover{
   background:#ffff;
-  color:#9370DB;
+  color:#FFD700;
 }
 
 #section-a{
