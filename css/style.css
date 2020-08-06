@@ -29,8 +29,8 @@ nav ul {
 
 nav li {
    display: inline-block;
-   margin-left: 70px;
-   padding-top: 10px 0;
+   margin-left: 100px;
+   padding-top: 20px 0;
 
    position: relative;
 }
@@ -39,7 +39,7 @@ nav a{
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 nav a:hover{
@@ -63,76 +63,32 @@ nav a:hover::before{
 
 }
 
-#showcase{
-  background-image: url('../img/anime.jpg');
+.box{
+  background-image: url(../img/anime.jpg);
   background-size:cover;
   background-position: center;
-  height:100vh;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align:center;
-  padding: 0 20px;
+  padding:100px;
+  margin: 100px;
+  height: 50vh;
 }
 
-#showcase h1{
-    font-size: 60px;
-    margin: 0;
-    position: absolute;
+h1.box {
+    font-size: 100px;
+    margin: 100px;
+    
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-#showcase p{
+p.box {
   font-size: 20px;
   position: absolute;
   top: 30%;
-}
-
-#showcase .button{
-  font-size: 18px;
-  text-decoration:none;
-  color: #ffff;
-  border: #ffff 1px solid;
-  padding: 10px 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-  position:absolute;
-  top: 35%
-}
-
-#showcase .button:hover{
-  background:#ffff;
-  color:#FFD700;
-}
-
-#section-a{
-  padding:20px;
-  background: #9370DB;
-  color: #fff;
-  text-align:center;
-}
-
-#section-b{
-  padding:20px;
-  background: #9370DB;
-  text-align:center;
-}
-
-#section-c{
-  display:flex;
-}
-
-#section-c div{
-  padding:20px;
-}
-#section-c .box-1, #section-c .box-3{
-  background:#6495ED;
-  color:#fff;
-}
-#section-c .box-2{
-  background:#EE82EE
-
+  left:auto;
 }
