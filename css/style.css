@@ -80,7 +80,7 @@ nav a:hover::before{
 h1.box {
     font-size: 100px;
     margin: 100px;
-    
+    position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
