@@ -38,8 +38,18 @@ header{
   transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover{
-  color:#8A2BE2;
+.nav_links li a::after{
+  content: '';
+  display:block;
+  width: 0;
+  height: 2px;
+  background:#8A2BE2;
+  transition: width .3s;
+}
+
+.nav_links li a:hover::after{
+  width: 100%;
+  transition: width;
 }
 
 button {
@@ -53,6 +63,7 @@ button {
 
 button:hover{
   background-color:#9932CC;
+
 }
 
 
