@@ -94,6 +94,10 @@ button:hover{
   position: relative;
 }
 
+.news h1{
+  font-size: 30px;
+}
+
 h1{
   position: relative;
 }
@@ -102,21 +106,21 @@ h1:after{
   content:'';
   position: absolute;
   bottom:0;
-  height: 2px;
+  height: 10px;
   width: 800px;
   left: 0;
   right:0;
   margin: 0 auto;
-  background: #ffff;
+  background: #8A2BE2;
 
 }
 
-.like{
-  padding: 60px 0;
+.popular{
+  padding: 100px 0;
 }
 
-.like h2{
-   font-size: 20px;
+.popular h2{
+   font-size: 30px;
    color: #ffff;
    position: relative;
    }
@@ -125,15 +129,15 @@ h1:after{
      content:'';
      position: absolute;
      bottom:0;
-     height: 2px;
+     height: 10px;
      width: 800px;
      left: 0;
      right:0;
      margin: 0 auto;
-     background: #ffff;
+     background: #8A2BE2;
    }
 
-.like hr{
+.popular hr{
   background-color: #ffff;
   border: none;
   height: 2px;
@@ -142,10 +146,205 @@ h1:after{
   position: absolute;
 }
 
-.hunter{
-  padding: 20px;
+.best{
+  padding: 25px;
   width:15%;
   height:auto;
-  margin-right: 25px;
+  margin: 0 30px 30px 0;
+  float:left;
+}
+
+.newest{
+  padding: 100px 0;
+}
+
+.newest h3{
+   font-size: 30px;
+   color: #ffff;
+   position: relative;
+   }
+
+   h3:after{
+     content:'';
+     position: absolute;
+     bottom:0;
+     height: 10px;
+     width: 800px;
+     left: 0;
+     right:0;
+     margin: 0 auto;
+     background: #8A2BE2;
+   }
+
+.newest hr{
+  background-color: #ffff;
+  border: none;
+  height: 2px;
+  width: 800px;
+  margin: 100px auto;
+  position: absolute;
+}
+
+.new{
+  padding: 25px;
+  width:15%;
+  height:auto;
+  margin: 0 30px 30px 0;
+  float:left;
+}
+
+.most1{
+  padding: 100px 0;
+}
+
+.most1 h4{
+   font-size: 30px;
+   color: #ffff;
+   position: relative;
+   }
+
+   h4:after{
+     content:'';
+     position: absolute;
+     bottom:0;
+     height: 10px;
+     width: 800px;
+     left: 0;
+     right:0;
+     margin: 0 auto;
+     background: #8A2BE2;
+   }
+
+.most1 hr{
+  background-color: #ffff;
+  border: none;
+  height: 2px;
+  width: 800px;
+  margin: 100px auto;
+  position: absolute;
+}
+
+.liked{
+  padding: 25px;
+  width:15%;
+  height:auto;
+  margin: 0 30px 30px 0;
+  float:left;
+}
+
+.newest{
+  padding: 100px 0;
+}
+
+.newest h5{
+   font-size: 30px;
+   color: #ffff;
+   position: relative;
+   }
+
+   h5:after{
+     content:'';
+     position: absolute;
+     bottom:0;
+     height: 10px;
+     width: 800px;
+     left: 0;
+     right:0;
+     margin: 0 auto;
+     background: #8A2BE2;
+   }
+
+.newest hr{
+  background-color: #ffff;
+  border: none;
+  height: 2px;
+  width: 800px;
+  margin: 100px auto;
+  position: absolute;
+}
+
+.new{
+  padding: 25px;
+  width:15%;
+  height:auto;
+  margin: 0 30px 30px 0;
+  float:left;
+}
+
+.most2{
+  padding: 100px 0;
+}
+
+.most2 h5{
+   font-size: 30px;
+   color: #ffff;
+   position: relative;
+   }
+
+   h5:after{
+     content:'';
+     position: absolute;
+     bottom:0;
+     height: 10px;
+     width: 800px;
+     left: 0;
+     right:0;
+     margin: 0 auto;
+     background: #8A2BE2;
+   }
+
+.most2 hr{
+  background-color: #ffff;
+  border: none;
+  height: 2px;
+  width: 800px;
+  margin: 100px auto;
+  position: absolute;
+}
+
+.hated{
+  padding: 25px;
+  width:15%;
+  height:auto;
+  margin: 0 30px 30px 0;
+  float:left;
+}
+
+.most3{
+  padding: 100px 0;
+}
+
+.most3 h6{
+   font-size: 30px;
+   color: #ffff;
+   position: relative;
+   }
+
+   h6:after{
+     content:'';
+     position: absolute;
+     bottom:0;
+     height: 10px;
+     width: 800px;
+     left: 0;
+     right:0;
+     margin: 0 auto;
+     background: #8A2BE2;
+   }
+
+.most3 hr{
+  background-color: #ffff;
+  border: none;
+  height: 2px;
+  width: 800px;
+  margin: 100px auto;
+  position: absolute;
+}
+
+.commented{
+  padding: 25px;
+  width:15%;
+  height:auto;
+  margin: 0 30px 30px 0;
   float:left;
 }
