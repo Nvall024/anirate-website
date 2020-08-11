@@ -348,3 +348,18 @@ h1:after{
   margin: 0 30px 30px 0;
   float:left;
 }
+
+.footer{
+  background-color: #8A2BE2;
+  width:100vw;
+  overflow: hidden;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.footer h7{
+  font-size: 15px;
+  color: #ffff;
+  position: relative;
+  font
+}
