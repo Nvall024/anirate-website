@@ -4,4 +4,9 @@ Anirate is an online platform for users to talk about their favorite anime title
 
 ## Technologies Used:
 
-Anirate is a web development project, so the use of HTML and CSS is prevalent. For the back end, Java alongside JSP files is used. Apache TomCat is used to host our website and run the Java files. 
+Anirate is a web development project, so the use of HTML and CSS is prevalent. For the back end, Java alongside JSP files is used. Apache Tom Cat is used to host our website and run the Java files. 
+
+### Creators
+
+Christopher Milian - Back End - Java, JSP, Servlets, Apache Tom Cat
+Nathaly Valle - Front End - HTML, CSS, 
