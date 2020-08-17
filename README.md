@@ -9,4 +9,5 @@ Anirate is a web development project, so the use of HTML and CSS is prevalent. F
 ### Creators
 
 Christopher Milian - Back End - Java, JSP, Servlets, Apache Tom Cat
+
 Nathaly Valle - Front End - HTML, CSS, 
