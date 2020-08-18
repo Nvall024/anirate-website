@@ -9,7 +9,7 @@
 <title>Set property</title>
 </head>
 <body>
-	<jsp:useBean id="user" class="anirate_java_html_css.beans.User" scope="session"></jsp:useBean>
+	<jsp:useBean id="user" class="anirate.beans.User" scope="session"></jsp:useBean>
 	<form action="getSessionProperty.jsp" method="post">
 		First name: <input type="text" name="firstName"
 			value='<jsp:getProperty property="firstName" name="user"/>'><br />

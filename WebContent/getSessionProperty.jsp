@@ -9,7 +9,7 @@
 <title>Get property</title>
 </head>
 <body>
-	<jsp:useBean id="user" class="anirate_java_html_css.beans.User" scope="session"></jsp:useBean>
+	<jsp:useBean id="user" class="anirate.beans.User" scope="session"></jsp:useBean>
 	<jsp:setProperty property="*" name="user" />
 	First Name:
 	<jsp:getProperty property="firstName" name="user" /><br /> 

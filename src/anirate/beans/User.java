@@ -1,4 +1,4 @@
-package anirate_java_html_css.beans;
+package anirate.beans;
 
 public class User {
 
