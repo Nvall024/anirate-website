@@ -4,7 +4,11 @@ Anirate is an online platform for users to rate, comment, and converse about fav
 
 ## Technologies Used:
 
-Anirate is a web development project, so the use of HTML and CSS is prevalent. For the back end, Java alongside JSP files is used. Apache Tomcat is used to host our website and run the Java files. 
+HTML
+CSS
+JavaScript
+NodeJS
+MongoDB
 
 ### Creators
 
