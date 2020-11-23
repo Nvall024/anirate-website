@@ -42,7 +42,7 @@ a:hover{
 
  hr{
    width: 70%;
-   height: 5px;
+   height: 10px;
    margin: auto;
    background-color: #6f4a8e;
    border: none;
@@ -88,6 +88,7 @@ a:hover{
   height: 30%;
   width: 12%;
   margin: 20px auto;
+  padding: 20px;
 }
 
 .content{
