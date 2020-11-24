@@ -14,4 +14,4 @@ MongoDB
 
 Christopher Milian - Back End - JavaScript, NodeJS, MongoDB
 
-Nathaly Valle - Front End - HTML, CSS, JavaScript
+Nathaly Valle - Front End - HTML, CSS, Bootstrap, JavaScript
