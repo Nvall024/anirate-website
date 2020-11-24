@@ -6,6 +6,7 @@ Anirate is an online platform for users to rate, comment, and converse about fav
 
 HTML
 CSS
+Bootstrap
 JavaScript
 NodeJS
 MongoDB
