@@ -42,14 +42,26 @@ a:hover{
 
 .carousel {
   position: relative;
-  left: 15%;
-  margin: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
   width:1000px;
   height:580px;
 }
 
 .carousel-caption{
   font-size: 2rem;
+}
+
+.card{
+  background-color: #6f4a8e;
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
 }
 
 .footer-container{
@@ -130,9 +142,7 @@ a:hover{
   width: 300px;
   padding:40px;
   border-radius: 10%;
-  position: relative;
-  left: 35%;
-  top: 40px;
+  margin: 100px auto auto auto;
   background: #221f3b;
   text-align: center;
 }
