@@ -4,15 +4,16 @@ Anirate is an online platform for users to rate, comment, and converse about fav
 
 ## Technologies Used:
 
-HTML
-CSS
-Bootstrap
-JavaScript
-NodeJS
-MongoDB
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- ExpressJS
+- NodeJS
+- MongoDB
 
 ### Creators
 
-Christopher Milian - Back End - JavaScript, NodeJS, MongoDB
+Christopher Milian - Back End - JavaScript, ExpressJS, NodeJS, MongoDB
 
 Nathaly Valle - Front End - HTML, CSS, Bootstrap, JavaScript
