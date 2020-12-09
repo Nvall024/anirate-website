@@ -49,6 +49,12 @@ a:hover{
   height:580px;
 }
 
+@media (max-width: 990px){
+  .carousel{
+    display: none;
+  }
+}
+
 .carousel-caption{
   font-size: 2rem;
 }
@@ -62,7 +68,7 @@ a:hover{
     column-count: 5;
   }
 }
-}
+
 
 .footer-container{
   background-color: #6f4a8e;
