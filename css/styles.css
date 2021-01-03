@@ -26,6 +26,8 @@ a:hover{
   color:#221f3b;
 }
 
+
+
 #ratings {
   background-color: #050505;
 }
@@ -61,6 +63,7 @@ a:hover{
 
 .card{
   background-color: #6f4a8e;
+
   @include media-breakpoint-only(lg) {
     column-count: 4;
   }
@@ -70,11 +73,13 @@ a:hover{
 }
 
 
-.footer-container{
-  background-color: #6f4a8e;
+footer{
   padding: 50px 0 0;
   margin: 100px auto 0 auto;
   text-align: center;
+  position: fixed;
+  bottom:0px;
+  width: 100%;
 }
 
 .footer-link{
@@ -145,7 +150,7 @@ a:hover{
 /* Account Page */
 
 .login-form{
-  width: 300px;
+  width: 400px;
   padding:40px;
   border-radius: 10%;
   margin: 100px auto auto auto;
@@ -155,7 +160,7 @@ a:hover{
 
 .login-form h1{
   color:#ebebeb;
-  text-transform: uppercase;
+
 }
 
 .login-form input[type = "text"], .login-form input[type = "password"]{
