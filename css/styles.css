@@ -8,11 +8,12 @@ body{
 }
 
 hr{
-  width: 70%;
-  height: 10px;
-  margin: auto;
+  width: 50%;
+  height: 5px;
+  margin: 1rem auto 2rem;
   background-color: #6f4a8e;
   border: none;
+
 }
 
 a{
@@ -44,11 +45,11 @@ a:hover{
 
 .carousel {
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 2rem;
+  margin: 2rem auto 4rem;
+
   width:1000px;
   height:580px;
+
 }
 
 @media (max-width: 990px){
@@ -59,6 +60,11 @@ a:hover{
 
 .carousel-caption{
   font-size: 2rem;
+}
+
+
+.content-wrap{
+padding-top: 100%;
 }
 
 .card{
@@ -74,13 +80,15 @@ a:hover{
 
 
 footer{
-  padding: 50px 0 0;
   margin: 100px auto 0 auto;
   text-align: center;
-  position: fixed;
+  position: sticky;
   bottom:0px;
   width: 100%;
+
 }
+
+
 
 .footer-link{
   margin: 50px;
