@@ -44,10 +44,8 @@ a:hover{
 .carousel {
   position: relative;
   margin: 2rem auto 4rem;
-
   width:1000px;
   height:580px;
-
 }
 
 @media (max-width: 990px){
@@ -74,7 +72,6 @@ padding-top: 100%;
     column-count: 5;
   }
 }
-
 
 .footer-link{
   margin: 50px;
