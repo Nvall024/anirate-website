@@ -27,8 +27,6 @@ a:hover{
   color:#221f3b;
 }
 
-
-
 #ratings {
   background-color: #050505;
 }
@@ -62,7 +60,6 @@ a:hover{
   font-size: 2rem;
 }
 
-
 .content-wrap{
 padding-top: 100%;
 }
@@ -77,17 +74,6 @@ padding-top: 100%;
     column-count: 5;
   }
 }
-
-
-footer{
-  margin: 100px auto 0 auto;
-  text-align: center;
-  position: sticky;
-  bottom:0px;
-  width: 100%;
-
-}
-
 
 
 .footer-link{
@@ -159,7 +145,7 @@ footer{
 
 .login-form{
   width: 400px;
-  padding:40px;
+  padding: 40px;
   border-radius: 10%;
   margin: 100px auto auto auto;
   background: #221f3b;
