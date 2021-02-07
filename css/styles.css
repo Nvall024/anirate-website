@@ -101,11 +101,13 @@ margin: 50px auto;
 /* About Page */
 .card-title{
   font-size: 50px;
-  background-color: #221f3b;
+  font-weight: bold;
+  background-color: #6f4a8e;
   width: 50%;
   position: relative;
-  margin: 2rem auto 4rem;
-  border-style: ridge;
+  margin: 8rem auto 4rem;
+  border-style: solid;
+  border-radius: 10px;
   border-color: #ebebeb ;
 
 }
@@ -121,27 +123,28 @@ margin: 50px auto;
 }
 
 .nat-content{
-  background-color: #221f3b;
+  background-color: #6f4a8e;
   position: absolute;
   left: 45%;
- float: right;
+ float: left;
  margin-right: 400px;
  margin-top: 60px;
  width: 600px;
  height: 450px;
  padding: 30px;
- border-style: outset;
- border-color: #ebebeb;
+ border-radius: 10px;
 
 }
 
 .about-image-chris{
   position: absolute;
-  margin-left: 50%;
+  margin-left: 53%;
+  border-radius: 10px;
+
 }
 
 .chris-content{
-  background-color: #221f3b;
+  background-color: #6f4a8e;
   position: absolute;
   right: 45%;
  float: right;
@@ -150,8 +153,7 @@ margin: 50px auto;
  width: 600px;
  height: 450px;
  padding: 30px;
- border-style: outset;
- border-color: #ebebeb;
+ border-radius: 10px;
 }
 
 .contact-me{
