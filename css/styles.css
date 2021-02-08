@@ -99,62 +99,7 @@ margin: 50px auto;
 }
 
 /* About Page */
-.card-title{
-  font-size: 50px;
-  font-weight: bold;
-  background-color: #6f4a8e;
-  width: 50%;
-  position: relative;
-  margin: 8rem auto 4rem;
-  border-style: solid;
-  border-radius: 10px;
-  border-color: #ebebeb ;
 
-}
-
-.team-member-one{
-  margin: 100px auto 800px;
-}
-
-.about-image-nat{
-  position: absolute;
-  margin-left: 25%;
-
-}
-
-.nat-content{
-  background-color: #6f4a8e;
-  position: absolute;
-  left: 45%;
- float: left;
- margin-right: 400px;
- margin-top: 60px;
- width: 600px;
- height: 450px;
- padding: 30px;
- border-radius: 10px;
-
-}
-
-.about-image-chris{
-  position: absolute;
-  margin-left: 53%;
-  border-radius: 10px;
-
-}
-
-.chris-content{
-  background-color: #6f4a8e;
-  position: absolute;
-  right: 45%;
- float: right;
- margin-left: 400px;
- margin-top: 60px;
- width: 600px;
- height: 450px;
- padding: 30px;
- border-radius: 10px;
-}
 
 .contact-me{
   margin: 1500px auto 50px;
