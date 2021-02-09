@@ -100,9 +100,37 @@ margin: 50px auto;
 
 /* About Page */
 
+h1{
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.container-fluid{
+ margin: 100px 200px;
+
+}
+
+#title{
+  font-size: 3rem;
+  text-align: left;
+}
+
+.float-child{
+  float:left;
+  padding: 50px;
+
+
+}
+
+ .anime-girl{
+   height: 360px;
+ }
+
 
 .contact-me{
-  margin: 1500px auto 50px;
+  margin: 50px auto 50px;
 
 }
 
@@ -128,6 +156,10 @@ margin: 50px auto;
   color: #ffffff;
   text-decoration: none;
 }
+
+
+
+
 
 /* Account Page */
 
