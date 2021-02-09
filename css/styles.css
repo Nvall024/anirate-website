@@ -9,11 +9,10 @@ body{
 
 hr{
   width: 50%;
-  height: 5px;
+  height: 1px;
   margin: 1rem auto 2rem;
   background-color: #6f4a8e;
   border: none;
-
 }
 
 a{
@@ -31,9 +30,6 @@ a:hover{
   background-color: #050505;
 }
 
-#get-in-touch{
-  margin: 30px auto 30px auto;
-}
 
 .navbar-brand {
   color: #ebebeb;
@@ -58,8 +54,8 @@ a:hover{
   font-size: 2rem;
 }
 
-.content-wrap{
-padding-top: 100%;
+.content-row{
+margin: 50px auto;
 }
 
 .card{
@@ -100,41 +96,106 @@ padding-top: 100%;
 }
 
 /* About Page */
-.about-top-container{
-  margin: 50px auto;
+
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#title{
+  padding: 10% 5% 5%;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+  background-color: #6f4a8e;
+}
+
+.float-child{
+  text-align: left;
+
+}
+
+
+ .anime-girl{
+   height: 400px;
+ }
+
+
+
+/* Team Section */
+h2{
+  font-weight: bold;
+
+}
+
+#team{
+  padding: 5% 15%;
+  background-color: #ebebeb;
+  color: #6f4a8e ;
+
+}
+
+.team-box{
+  padding: 5%;
 }
 
 .profile-pic{
+  height: 300px;
   border-radius: 50%;
-  height: 20%;
-  width: 20%;
-  margin: 100px auto 20px;
+  padding-bottom: 30px;
 }
 
-.contact-me{
-  margin: 50px auto;
+
+/*Community Section */
+
+#community{
+  background-color: #ffba93;
+  color: #ebebeb ;
+  padding: 5% 15%;
 }
 
-.contact-message{
-  margin: 20px auto 20px auto;
+.icon{
+  margin: 20px;
 }
+
+.icon:hover{
+  color: #6f4a8e;
+}
+
+#sign-up{
+  background-color: #ebebeb;
+  color: #ffba93;
+  padding: 5% 15%;
+}
+
+
+
+/*Contact Me Section */
+
+#contact{
+  background-color: #6f4a8e;
+  color: #ebebeb;
+  padding: 5% 15%;
+}
+
 
 .btn {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: Arial;
-  color: #ffffff;
+  color: #6f4a8e ;
   font-size: 20px;
-  background:#6f4a8e;
+  background:#ebebeb ;
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #221f3b;
-  color: #ffffff;
+  background: #ffba93;
+  color: #ebebeb;
   text-decoration: none;
 }
 
