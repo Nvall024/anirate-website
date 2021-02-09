@@ -101,34 +101,72 @@ margin: 50px auto;
 /* About Page */
 
 h1{
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: bold;
   line-height: 1.5;
-  text-align: left;
 }
 
-.container-fluid{
- margin: 100px 200px;
-
-}
 
 #title{
+  padding: 10% 5%;
   font-size: 3rem;
-  text-align: left;
+  background-color: #6f4a8e;
 }
 
 .float-child{
-  float:left;
-  padding: 50px;
-
+  text-align: left;
 
 }
 
+
  .anime-girl{
-   height: 360px;
+   height: 400px;
  }
 
 
+
+/* Team Section */
+h2{
+  font-weight: bold;
+
+}
+
+#team{
+  padding: 5% 15%;
+  background-color: #ebebeb;
+  color: #6f4a8e ;
+
+}
+
+.team-box{
+  padding: 5%;
+}
+
+.profile-pic{
+  height: 300px;
+  border-radius: 50%;
+  padding-bottom: 30px;
+}
+
+
+/*Community Section */
+
+#community{
+  background-color: #ffba93;
+  color: #ebebeb ;
+  padding: 5% 15%;
+}
+
+.icon{
+  margin: 20px;
+}
+
+.icon:hover{
+  color: #6f4a8e;
+}
+
+
+/*Contact Me Section */
 .contact-me{
   margin: 50px auto 50px;
 
@@ -156,10 +194,6 @@ h1{
   color: #ffffff;
   text-decoration: none;
 }
-
-
-
-
 
 /* Account Page */
 
