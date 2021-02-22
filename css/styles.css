@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #050505;
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@ body{
   color: #ebebeb;
 }
 
-hr{
+hr {
   width: 50%;
   height: 1px;
   margin: 1rem auto 2rem;
@@ -15,21 +15,20 @@ hr{
   border: none;
 }
 
-a{
+a {
   font-size: 20px;
   color: #ebebeb;
   text-decoration: none;
   font-weight: bold;
 }
 
-a:hover{
-  color:#221f3b;
+a:hover {
+  color: #221f3b;
 }
 
 #ratings {
   background-color: #050505;
 }
-
 
 .navbar-brand {
   color: #ebebeb;
@@ -40,36 +39,37 @@ a:hover{
 .carousel {
   position: relative;
   margin: 2rem auto 4rem;
-  width:1000px;
-  height:580px;
+  width: 1000px;
+  height: 580px;
 }
 
-@media (max-width: 990px){
-  .carousel{
+@media (max-width: 990px) {
+  .carousel {
     display: none;
   }
 }
 
-.carousel-caption{
+.carousel-caption {
   font-size: 2rem;
 }
 
-.content-row{
-margin: 50px auto;
+.content-row {
+  margin: 50px auto;
 }
 
-.card{
+.card {
   background-color: #6f4a8e;
 
   @include media-breakpoint-only(lg) {
     column-count: 4;
   }
+
   @include media-breakpoint-only(xl) {
     column-count: 5;
   }
 }
 
-.footer-link{
+.footer-link {
   margin: 50px;
   text-decoration: none;
   font-size: 20px;
@@ -78,12 +78,12 @@ margin: 50px auto;
   font-weight: bold;
 }
 
-.footer-link:hover{
-  color:#221f3b;
+.footer-link:hover {
+  color: #221f3b;
   text-decoration: none;
 }
 
-.copy-right{
+.copy-right {
   font-size: 0.75rem;
   padding: 20px 0;
   margin-bottom: 0;
@@ -96,14 +96,13 @@ margin: 50px auto;
 }
 
 /* About Page */
-
-h1{
+h1 {
   font-size: 4rem;
   font-weight: bold;
   line-height: 1.5;
 }
 
-#title{
+#title {
   padding: 10% 5% 5%;
   font-size: 4rem;
   font-weight: bold;
@@ -111,83 +110,71 @@ h1{
   background-color: #6f4a8e;
 }
 
-.float-child{
+.float-child {
   text-align: left;
-
 }
 
-
- .anime-girl{
-   height: 400px;
- }
-
-
+.anime-girl {
+  height: 400px;
+}
 
 /* Team Section */
-h2{
+h2 {
   font-weight: bold;
-
 }
 
-#team{
+#team {
   padding: 5% 15%;
   background-color: #ebebeb;
-  color: #6f4a8e ;
-
+  color: #6f4a8e;
 }
 
-.team-box{
+.team-box {
   padding: 5%;
 }
 
-.profile-pic{
+.profile-pic {
   height: 300px;
   border-radius: 50%;
   padding-bottom: 30px;
 }
 
-
 /*Community Section */
-
-#community{
+#community {
   background-color: #ffba93;
-  color: #ebebeb ;
+  color: #ebebeb;
   padding: 5% 15%;
 }
 
-.icon{
+.icon {
   margin: 20px;
 }
 
-.icon:hover{
+.icon:hover {
   color: #6f4a8e;
 }
 
-#sign-up{
+#sign-up {
   background-color: #ebebeb;
   color: #ffba93;
   padding: 5% 15%;
 }
 
-
-
 /*Contact Me Section */
-
-#contact{
+#contact {
   background-color: #6f4a8e;
   color: #ebebeb;
   padding: 5% 15%;
 }
-
 
 .btn {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: Arial;
-  color: #6f4a8e ;
+  color: #6f4a8e;
   font-size: 20px;
-  background:#ebebeb ;
+  background: #ebebeb;
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
   text-decoration: none;
@@ -200,22 +187,33 @@ h2{
 }
 
 /* Account Page */
+#account-page {
+  background-color: #6f4a8e;
+  padding: 5% 15%;
+}
 
-.login-form{
+.account-title {
+  color: #ebebeb;
+  font-size: 4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.account-title:hover {
+  color: #ffba93;
+  text-decoration: none;
+}
+
+.login-form {
   width: 400px;
   padding: 40px;
-  border-radius: 10%;
-  margin: 100px auto auto auto;
-  background: #221f3b;
+  border-radius: 5%;
+  margin: auto;
+  background: #ffba93;
   text-align: center;
 }
 
-.login-form h1{
-  color:#ebebeb;
-
-}
-
-.login-form input[type = "text"], .login-form input[type = "password"]{
+.login-form input[type="text"], .login-form input[type="password"] {
   border: 0;
   background: none;
   margin: 20px auto;
@@ -228,12 +226,12 @@ h2{
   transition: 0.25s;
 }
 
-.login-form input[type = "text"]:focus,.login-form input[type = "password"]:focus{
-  width:280px;
-  border-color: #050505;
+.login-form input[type="text"]:focus, .login-form input[type="password"]:focus {
+  width: 280px;
+  border-color: #6f4a8e;
 }
 
-.login-form input[type = "submit"]{
+.login-form input[type="submit"] {
   border: 0;
   background: none;
   margin: 20px auto;
@@ -241,12 +239,12 @@ h2{
   padding: 14px 40px;
   width: 200px;
   outline: none;
-  color: #6f4a8e;
+  color: #ebebeb;
   border-radius: 24px;
   transition: 0.25s;
   cursor: pointer;
 }
 
-.login-form input[type = "submit"]:hover{
-  background: #ebebeb;
+.login-form input[type="submit"]:hover {
+  background: #6f4a8e;
 }
